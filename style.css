@@ -1,0 +1,118 @@
+.con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+  background: #3A1078;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color:white;
+  font:bold;
+}
+ /* this is code for purple text (worlds largest)*/
+.pink {
+  color: #703CB1;
+  font: bold;
+}
+/* small text (start by regi.... ↓ )*/
+.text2{
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color:white;  
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  width: 20%;
+  border-radius: 5px;
+    
+     
+}
+
+.button1 {
+  margin-bottom: 0.8rem;
+  background-color: #E74646; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer;
+  border-radius:50px; 
+
+}
+
+.button2 {
+  margin-bottom: 0.5rem;
+  background-color: #655DBB; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer;
+  border-radius:50px; 
+  
+}
+
+
+@media (max-width: 768px) {
+  .con {
+    height: 70vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .text {
+    font-size: 35px;
+    
+  }
+
+  .text2{
+    text-align: center;
+    font-size: 15px;
+     
+  }
+  
+  .buttons {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+}
+
+/* For screen sizes up to 576px */
+@media (max-width: 576px) {
+  .con {
+    height: 70vh;
+    display: fixed;
+  }
+  
+  .text {
+    font-size: 35px;
+    line-height: 50px;
+    
+  }
+  
+  .buttons {
+    width: 40%;
+    margin-left:130px;
+  }
+  
+  .text2{
+    text-align: center;
+    font-size: 15px;
+      
+  }
+}
